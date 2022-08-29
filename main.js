@@ -3,7 +3,7 @@ function addData(data) {
   return { ...default_value, ...data };
 }
 
-function salaryStatus(salary, salary_received) {
+function getSalaryReceived(salary, salary_received) {
   const salary_percentage = salary / 100;
   return (salary_received / salary_percentage) | 0;
 }
@@ -69,7 +69,7 @@ finance_list.push(
     salary: 43_000,
     salary_received: received,
     balance: 43_000 - received,
-    salary_progress: salaryStatus(43_000, received),
+    salary_progress: getSalaryReceived(43_000, received),
   })
 );
 
@@ -80,7 +80,7 @@ finance_list.push(
     salary: 80_000,
     salary_received: received,
     balance: 80_000 - received,
-    salary_progress: salaryStatus(80_000, received),
+    salary_progress: getSalaryReceived(80_000, received),
   })
 );
 
