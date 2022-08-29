@@ -18,12 +18,12 @@ const default_value = {
 
 const finance_list = [];
 
-let received = 43_000;
+let received = 2_000;
 const add_finance_data = addData({
   title: 'Work 2',
-  salary: 43000,
+  salary: 43_000,
   salary_received: received,
-  salary_status: salaryStatus(43000, received),
+  salary_status: salaryStatus(43_000, received),
 });
 
 // Push data to finance list array
