@@ -40,5 +40,6 @@ The goal of the design is to help you not to be lazy when adding your new projec
 - [ ] Complete web app in **December, 2022**.
 - [ ] Deploy on its own domain and hosting.
 - [ ] Market the project and make users.
+- [ ] Monetize the project.
 - [ ] Create mobile application of this project using `React Native`.
-- [ ] Deploy the application on PlayStore
+- [ ] Deploy the application on PlayStore.
