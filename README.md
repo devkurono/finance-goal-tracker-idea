@@ -19,12 +19,10 @@ I wanted to create this for myself, and hopefully someone can use this for their
 
 ## Design goal
 
----
 The goal of the design is to help you not to be lazy when adding your new project, income, or expenses in the web application, so you can keep on track and keep using the web app.
 
 ## Project Progress
 
---- 
 ####  EARLY
 - [x] Back-end concept
 - [ ] Project name and logo
@@ -38,7 +36,6 @@ The goal of the design is to help you not to be lazy when adding your new projec
 
 ## Project Goals
 
----
 - [ ] Complete web app in **December, 2022**.
 - [ ] Deploy on its own domain and hosting.
 - [ ] Market the project and make users.
