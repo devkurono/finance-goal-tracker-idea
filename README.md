@@ -28,7 +28,7 @@ The goal of the design is to help you not to be lazy when adding your new projec
   ![img.png](img.png)
 - [ ] Project name and logo
 - [ ] User-Interface and User-Experience
-
+- [ ] Plan marketing strategy
 #### MID
 - [ ] No input ATM.
 
