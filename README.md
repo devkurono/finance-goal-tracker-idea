@@ -25,6 +25,7 @@ The goal of the design is to help you not to be lazy when adding your new projec
 
 ####  EARLY
 - [x] Back-end concept
+  ![img.png](img.png)
 - [ ] Project name and logo
 - [ ] User-Interface and User-Experience
 

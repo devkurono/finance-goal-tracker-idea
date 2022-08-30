@@ -1,3 +1,5 @@
+Object.freeze(Object.prototype);
+
 function addData(data) {
   // todo: Find a way to secure this.
   return { ...default_value, ...data };
@@ -51,7 +53,7 @@ const default_value = {
   balance: 0,
   received_logs: [
     {
-      salary_received: 0,
+      salary_received: this.salary_received,
       date: getDate(),
       time: getTime(),
     },
@@ -60,7 +62,7 @@ const default_value = {
 
 const finance_list = [];
 
-let received = 45_000;
+let received = 40_000;
 
 finance_list.push(
   addData({
@@ -69,7 +71,7 @@ finance_list.push(
     salary: 43_000,
     salary_received: received,
     balance: 43_000 - received,
-    salary_progress: getSalaryReceived(43_000, received),
+    salary_progress: getSalaryReceived(43_000, received) + '%',
   })
 );
 
@@ -80,11 +82,11 @@ finance_list.push(
     salary: 80_000,
     salary_received: received,
     balance: 80_000 - received,
-    salary_progress: getSalaryReceived(80_000, received),
+    salary_progress: getSalaryReceived(80_000, received) + '%',
   })
 );
 
-console.log(finance_list);
+console.table(finance_list);
 console.log('Total Salary: ', getTotalSalary());
 console.log('Total Salary Received: ', getTotalSalaryReceived());
 console.log('Total Salary Received Percentage:', getSalaryReceivedPercentage());
