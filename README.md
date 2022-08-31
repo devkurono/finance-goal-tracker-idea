@@ -4,7 +4,13 @@ This project entered in my mind when I'm doing my financial recording on Excel w
 
 ![img.png](document-assets/img.png)
 
-I wanted to create this for myself, and hopefully someone can use this for their financial goal as well. This app is for personal and private use only, It will `not require you to connect your bank account or credit card`, just input numbers there and the app will do the work for you.
+I wanted to create this for myself, and hopefully someone can use this for their financial goal as well. This app is for personal and private use only, It will `not require you to connect your bank account or credit card` just input numbers there and the app will do the work for you.
+
+
+## Ideas
+1. Simple **cute character** that can be love by anyone liket this one below:
+<br>![img_1.png](document-assets/img-3.png)
+2. Different Themes
 
 ## Features
 
@@ -16,6 +22,8 @@ I wanted to create this for myself, and hopefully someone can use this for their
 6. Project count
 7. Project balance and total balance
 8. Google account integration
+9. Theme product
+10. Dark/Light mode
 
 ## Design goal
 
@@ -25,7 +33,7 @@ The goal of the design is to help you not to be lazy when adding your new projec
 
 ####  EARLY
 - [x] Back-end concept
-  ![img.png](img.png)
+  ![img.png](document-assets/img-2.png)
 - [ ] Project name and logo
 - [ ] User-Interface and User-Experience
 - [ ] Plan marketing strategy
